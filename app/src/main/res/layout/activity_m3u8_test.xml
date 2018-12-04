@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.weefree.m3u8cache.activities.M3u8TestActivity">
+
+    <include layout="@layout/widget_toolbar" />
+
+
+    <Button android:id="@+id/test_btn"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_margin="32dp"
+        android:text="Open"
+        android:onClick="onClick"/>
+
+
+    <TextView android:id="@+id/log_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"/>
+
+</LinearLayout>
